@@ -25,4 +25,10 @@ https://harrisgeospatial.flexnetoperations.com
 % Stop encountered: MAKE_SPONGE_SPO3D_MASK_COEFF  290 /g/data/p66/ars599/ACCESS-CM2/post_processing/cchung_scripts/mak
   e_sponge_spo3d_mask_coeff.pro
 
+# source
+/g/data/p66/ars599/ACCESS-CM2/post_processing/cchung_scripts/make_sponge_spo3d40s_mask_coeff.pro
+
+# output:
+/g/data/p66/ars599/ACCESS-CM2/post_processing/cchung_scripts/salt_coeff_spo_3d.nc
+/g/data/p66/ars599/ACCESS-CM2/post_processing/cchung_scripts/temp_coeff_spo_3d.nc
 
