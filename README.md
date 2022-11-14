@@ -7,7 +7,22 @@ module load idl
 export IDL_PATH='<IDL_DEFAULT>':'~ars599/archive/Base_temp/plot_idl/peyl'
 idl -e "make_sponge_coeff"
 
-# 15112022
+# setup the region
+;ars599 26022021
+lattrop1 = where(lat ge -20 and lat le 0)
+latnth1 = where(lat lt 5 and lat ge 0)
+latsth1 = where(lat gt -25 and lat le -20)
+
+lontrop1 = where(lon ge -100 and lon le -70)
+loneast1 = where(lon lt -100 and lon ge -105)
+lonwest1 = where(lon le -65 and lon gt -70)
+
+verttrop1 = where(vert ge 50.0 and vert le 5830)
+verttop1  = where(vert lt 50.0 and vert ge 55.0)
+vertbom1  = where(vert gt 5830 and vert le 5840)
+
+
+# run 15112022
 idl -e make_sponge_spo3d_mask_coeff
 
 IDL 8.8.0 (linux x86_64 m64).
