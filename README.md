@@ -32,3 +32,5 @@ https://harrisgeospatial.flexnetoperations.com
 /g/data/p66/ars599/ACCESS-CM2/post_processing/cchung_scripts/salt_coeff_spo_3d.nc
 /g/data/p66/ars599/ACCESS-CM2/post_processing/cchung_scripts/temp_coeff_spo_3d.nc
 
+# mask
+![](https://github.com/ars599/S_Pacific_Clamping_Christine/mask_coeff_spo.gif)
