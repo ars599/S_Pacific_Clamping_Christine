@@ -52,8 +52,18 @@ https://harrisgeospatial.flexnetoperations.com
 /g/data/p66/ars599/ACCESS-CM2/post_processing/cchung_scripts/temp_coeff_spo_3d.nc
 
 
+# in HI-02 Southern Pacific Ocean run
 /g/data/p66/ars599/ACCESS-CM2/post_processing/restore_files/esm_sponge
 
+```
+-rw-r--r-- 1 ars599 p66 259206760 Aug 30 21:49 salt_sponge.nc
+-rw-r--r-- 1 ars599 p66 259206788 Aug 30 21:49 salt_sponge_coeff.nc
+-rw-r--r-- 1 ars599 p66 259206760 Aug 30 21:49 temp_sponge.nc
+-rw-r--r-- 1 ars599 p66 259206800 Aug 30 21:48 temp_sponge_coeff.nc
 
-# mask
+xxxx_spnge.nc are the climatological value over certain period.
+xxxx_sponge_coeff.nc are the masking file
+```
+
+# plot the mask
 ![](https://github.com/ars599/S_Pacific_Clamping_Christine/blob/main/mask_coeff_spo.gif)
