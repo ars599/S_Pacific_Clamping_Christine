@@ -47,10 +47,11 @@ https://harrisgeospatial.flexnetoperations.com
 # source
 /g/data/p66/ars599/ACCESS-CM2/post_processing/cchung_scripts/make_sponge_spo3d40s_mask_coeff.pro
 
-# output:
+# to generate the masking output:
+```
 /g/data/p66/ars599/ACCESS-CM2/post_processing/cchung_scripts/salt_coeff_spo_3d.nc
 /g/data/p66/ars599/ACCESS-CM2/post_processing/cchung_scripts/temp_coeff_spo_3d.nc
-
+```
 
 # in HI-02 Southern Pacific Ocean run
 /g/data/p66/ars599/ACCESS-CM2/post_processing/restore_files/esm_sponge
