@@ -92,4 +92,4 @@ xxxx_sponge_coeff.nc are the masking file
 ![](https://github.com/ars599/S_Pacific_Clamping_Christine/blob/main/mask_coeff_spo.gif)
 
 # publication
-![](https://github.com/ars599/S_Pacific_Clamping_Christine/blob/main/paper.gif)
+![](https://github.com/ars599/S_Pacific_Clamping_Christine/blob/main/paper.png)
