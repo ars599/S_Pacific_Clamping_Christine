@@ -52,6 +52,28 @@ https://harrisgeospatial.flexnetoperations.com
 /g/data/p66/ars599/ACCESS-CM2/post_processing/cchung_scripts/salt_coeff_spo_3d.nc
 /g/data/p66/ars599/ACCESS-CM2/post_processing/cchung_scripts/temp_coeff_spo_3d.nc
 ```
+due to the esm we now keep everything under:
+
+```
+/g/data/p66/ars599/ACCESS-CM2/post_processing/restore_files/esm_sponge
+```
+
+Where the climatological dataset are from:
+```
+# In CM2 the script will automatic convert from the intput file to output file
+[file:$OCN_RUNDIR/INPUT/temp_sponge_coeff.nc]
+source=/g/data/p66/ars599/ACCESS-CM2/post_processing/restore_files/temp_coeff_spo_3d.nc
+
+[file:$OCN_RUNDIR/INPUT/temp_sponge.nc]
+source=/g/data/p66/ars599/ACCESS-CM2/post_processing/restore_files/temp_3d_clim_1970-2019.nc
+
+[file:$OCN_RUNDIR/INPUT/salt_sponge_coeff.nc]
+source=/g/data/p66/ars599/ACCESS-CM2/post_processing/restore_files/salt_coeff_spo_3d.nc
+
+[file:$OCN_RUNDIR/INPUT/salt_sponge.nc]
+source=/g/data/p66/ars599/ACCESS-CM2/post_processing/restore_files/salt_3d_clim_1970-2019.nc
+```
+
 
 # in HI-02 Southern Pacific Ocean run
 /g/data/p66/ars599/ACCESS-CM2/post_processing/restore_files/esm_sponge
